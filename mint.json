@@ -58,7 +58,7 @@
       "group": "Get Started",
       "pages": [
         "overview",
-        "pricing",
+        "mastodon-instances",
         "compare-instances"
       ]
     },
