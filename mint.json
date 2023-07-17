@@ -50,7 +50,7 @@
     {
       "name": "mastodon.site blog",
       "icon": "newspaper",
-      "url": "blog/index"
+      "url": "https://docs.mastodon.site/blog/latest"
     }
   ],
   "navigation": [
