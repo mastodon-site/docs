@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -36,14 +36,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
+      "name": "Pricing",
+      "icon": "dollar",
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Public instance",
+      "icon": "mastodon",
+      "url": "https://social.mastodon.site"
     },
     {
       "name": "Blog",
@@ -62,7 +62,9 @@
     },
     {
       "group": "Mastodon admins",
-      "pages": ["admins/admin-overview"]
+      "pages": [
+        "admins/admin-overview"
+      ]
     },
     {
       "group": "Admin topics",
