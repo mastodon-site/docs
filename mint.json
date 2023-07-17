@@ -50,7 +50,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "blog/index"
     }
   ],
   "navigation": [
