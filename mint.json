@@ -21,7 +21,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@mastodon.site"
     }
   ],
   "topbarCtaButton": {
@@ -73,10 +73,5 @@
         "api-reference/endpoint/delete"
       ]
     }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
