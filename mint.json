@@ -52,8 +52,8 @@
       "pages": ["introduction", "pricing", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Learn",
+      "pages": ["learn/markdown", "learn/code", "learn/images", "learn/settings", "learn/navigation"]
     },
     {
       "group": "Mastodon admins",
