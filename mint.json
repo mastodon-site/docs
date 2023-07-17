@@ -53,7 +53,7 @@
     },
     {
       "group": "Managed Mastodon",
-      "pages": [ "managed-instance/costs", "managed-instance/domain-name", "managed-instance/migrate-away", "managed-instance/settings", "managed-instance/navigation"]
+      "pages": [ "managed-instance/costs", "managed-instance/domain-name", "managed-instance/migrate-away"]
     },
     {
       "group": "Learn",
