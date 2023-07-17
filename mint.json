@@ -28,6 +28,12 @@
     "name": "mastodon.site",
     "url": "https://social.mastodon.site"
   },
+  "tabs": [
+    {
+      "name": "Mastodon admins",
+      "url": "admins"
+    }
+  ],
   "anchors": [
     {
       "name": "Documentation",
@@ -48,23 +54,23 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "pricing", "development"]
     },
     {
       "group": "Essentials",
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "Mastodon admins",
+      "pages": ["admins/admin-overview"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Admin topics",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "admins/topics/get",
+        "admins/topics/create",
+        "admins/topics/update",
+        "admins/topics/delete"
       ]
     }
   ]
