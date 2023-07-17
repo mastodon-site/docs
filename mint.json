@@ -73,13 +73,10 @@
       ]
     },
     {
-      "group": "Admin topics",
+      "group": "Mastodon.site support",
       "pages": [
-        "admins/topics/get",
-        "admins/topics/create",
-        "admins/topics/update",
-        "admins/topics/delete"
+        "support/forgot-admin-password"
       ]
-    }
+    },
   ]
 }
