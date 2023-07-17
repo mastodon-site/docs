@@ -60,7 +60,7 @@
     },
     {
       "group": "Learn",
-      "pages": ["learn/markdown", "learn/code", "learn/images", "learn/settings", "learn/navigation"]
+      "pages": ["learn/best-apps", "learn/code", "learn/images", "learn/settings", "learn/navigation"]
     },
     {
       "group": "Mastodon admins",
