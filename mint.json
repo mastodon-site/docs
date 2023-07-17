@@ -35,6 +35,10 @@
     {
       "name": "Mastodon admins",
       "url": "admins"
+    },
+    {
+      "name": "mastodon.site support",
+      "url": "support"
     }
   ],
   "anchors": [
