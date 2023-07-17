@@ -87,7 +87,7 @@
     {
       "group": "Mastodon.site support",
       "pages": [
-        "support/index",
+        "support/overview",
         "support/forgot-admin-password"
       ]
     }

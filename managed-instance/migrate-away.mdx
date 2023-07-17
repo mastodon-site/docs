@@ -4,56 +4,19 @@ description: 'We can help you export your instance data'
 icon: 'door-open'
 ---
 
-<img
-  style={{ borderRadius: '0.5rem' }}
-  src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-/>
+While we want mastodon.site to be the best choice for hosting a no-hassle mastodon instance, we also believe in data portability and that if you want to take your social media elsewhere we're here to help.
 
-## Image
+## What we can migrate
 
-### Using Markdown
+As in the process of running your mastodon instance, we'll store two main types of data:
 
-The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
+* Postgres database data - this contains your users, their posts, follows, and all instance settings
+* Media data - all of the photos, videos and profile photos uploaded by, or in the timelines of, your instance's users
 
-```md
-![title](/path/image.jpg)
-```
+If you decide to leave, we can transfer both of these data stores to you following your requests. Just [contact us](/support/overview).
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+## Cache data
 
-### Using Embeds
+Mastodon also stores some data in a temporary cache (Redis). Some of this is genuinely cache and doesn't need migrating anyway; some of it is used to store the current timeline of users (and some in-flight queue data).
 
-To get more customizability with images, you can also use [embeds](/writing-content/embed) to add images
-
-```html
-<img height="200" src="/path/image.jpg" />
-```
-
-## Embeds and HTML elements
-
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/4KzFe50RQkQ"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style={{ width: '100%', borderRadius: '0.5rem' }}
-></iframe>
-
-<br />
-
-<Tip>
-
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
-
-</Tip>
-
-### iFrames
-
-Loads another HTML page within the document. Most commonly used for embedding videos.
-
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
-```
+Unfortunately we have no way to export this for you, but once you start up a new instance this cache data will start to populate again.
