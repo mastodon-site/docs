@@ -69,12 +69,14 @@
     {
       "group": "Mastodon admins",
       "pages": [
+        "admins/index",
         "admins/relays"
       ]
     },
     {
       "group": "Mastodon.site support",
       "pages": [
+        "support/index",
         "support/forgot-admin-password"
       ]
     }
