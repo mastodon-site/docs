@@ -56,15 +56,25 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["overview", "pricing", "development"]
+      "pages": [
+        "overview",
+        "pricing",
+        "compare-instances"
+      ]
     },
     {
       "group": "Managed Mastodon",
-      "pages": [ "managed-instance/costs", "managed-instance/domain-name", "managed-instance/migrate-away"]
+      "pages": [
+        "managed-instance/costs",
+        "managed-instance/domain-name",
+        "managed-instance/migrate-away"
+      ]
     },
     {
       "group": "Learn",
-      "pages": ["learn/best-apps"]
+      "pages": [
+        "learn/best-apps"
+      ]
     },
     {
       "group": "Mastodon admins",
