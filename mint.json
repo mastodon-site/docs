@@ -28,6 +28,9 @@
     "name": "mastodon.site",
     "url": "https://social.mastodon.site"
   },
+  "primaryTab": {
+    "name": "Home"
+  },
   "tabs": [
     {
       "name": "Mastodon admins",
