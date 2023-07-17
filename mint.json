@@ -56,7 +56,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["pricing", "development"]
+      "pages": ["index", "pricing", "development"]
     },
     {
       "group": "Managed Mastodon",
