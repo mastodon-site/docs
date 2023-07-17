@@ -43,7 +43,7 @@
   ],
   "anchors": [
     {
-      "name": "Public mastodon.site instance",
+      "name": "Join mastodon.site",
       "icon": "mastodon",
       "url": "https://social.mastodon.site"
     },
