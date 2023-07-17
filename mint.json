@@ -37,7 +37,7 @@
       "url": "admins"
     },
     {
-      "name": "mastodon.site support",
+      "name": "Mastodon.site support",
       "url": "support"
     }
   ],
@@ -64,7 +64,7 @@
     },
     {
       "group": "Learn",
-      "pages": ["learn/best-apps", "learn/code", "learn/images", "learn/settings", "learn/navigation"]
+      "pages": ["learn/best-apps"]
     },
     {
       "group": "Mastodon admins",
