@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Docs",
+  "name": "mastodon.site docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -36,12 +36,7 @@
   ],
   "anchors": [
     {
-      "name": "Pricing",
-      "icon": "dollar",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Public instance",
+      "name": "Public mastodon.site instance",
       "icon": "mastodon",
       "url": "https://social.mastodon.site"
     },
