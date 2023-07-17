@@ -70,7 +70,8 @@
       "group": "Mastodon admins",
       "pages": [
         "admins/index",
-        "admins/relays"
+        "admins/relays",
+        "admins/understanding-space-usage"
       ]
     },
     {
