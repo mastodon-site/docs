@@ -52,6 +52,10 @@
       "pages": ["introduction", "pricing", "development"]
     },
     {
+      "group": "Managed Mastodon",
+      "pages": ["managed-instance/markdown", "managed-instance/code", "managed-instance/images", "managed-instance/settings", "managed-instance/navigation"]
+    },
+    {
       "group": "Learn",
       "pages": ["learn/markdown", "learn/code", "learn/images", "learn/settings", "learn/navigation"]
     },
